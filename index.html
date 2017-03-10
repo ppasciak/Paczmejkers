@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="css/style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="utf-8">
+<meta name="theme-color" content="#80deea">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
 </head>
@@ -21,22 +22,22 @@
 </svg></div>
     <nav>
       <ul>
-        <li><a href="#">JAKOŚĆ</a></li>
-        <li><a href="#">DOSTAWA</a></li>
+        <li><a href="#quality">JAKOŚĆ</a></li>
+        <li><a href="#delivery">DOSTAWA</a></li>
         <li class="logo-box"><img src="img/logo.png" alt="Logo"></li>
-        <li><a href="#">LOKACJA</a></li>
-        <li><a href="#">KONTAKT</a></li>
+        <li><a href="#location">LOKACJA</a></li>
+        <li><a href="#contact">KONTAKT</a></li>
       </ul>
         <button class="burg"><div class="bar"></div></button>
     </nav>
-    <div class="cont about">
+    <div class="cont about" id="about">
       <img src="/img/about-img.png" alt="Just big donut">
       <div class="text">
         <h2>O NAS</h2><hr>
         <p>Jesteśmy cukiernią specjalizującą się w pączkach, ale nie tylko! Oferujemy sprzedaż detaliczną, hurtową oraz zaopatrzenie różnego rodzaju imprez takich jak wesela, eventy firmowe czy urodziny. </p>
       </div>
     </div>
-    <div class="cont quality">
+    <div class="cont quality" id="quality">
       <div class="text">
         <div class="circle-photo first">
           <img src="img/grain.png" alt="Icon">
@@ -62,7 +63,7 @@
         <p>W naszych wyrobach znaleźć możesz nadzienie zawsze ze świeżych owoców, m. in. wiśni, pomarańczy, banana czy ananasa.</p>
       </div>
     </div>
-    <div class="cont delivery">
+    <div class="cont delivery" id="delivery">
       <img src="img/torbamock.png" alt="Donut bag">
       <div class="text">
         <h2>DOSTAWA</h2>
@@ -70,7 +71,7 @@
         <p>Realizujemy zamówienia hurtowe oraz detaliczne przy zakupie min. 10 pączków na terenie całej Nysy. W przypadku kupna z dostawą należy się skontaktować z nami telefonicznie lub poprzez formularz. </p>
       </div>
     </div>
-    <div class="cont location">
+    <div class="cont location" id="location">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1067.651879460457!2d17.33294654862868!3d50.47241553513789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4711c405dde3d40d%3A0x4d356a9ce41b8f45!2sCelna+3%2C+Nysa!5e0!3m2!1spl!2spl!4v1489077148384" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       <div class="text">
         <h2>LOKACJA</h2>
@@ -78,7 +79,7 @@
         <p>Nasza cukiernia znajduje się w sercu miasta, przy ulicy Celnej. Zapraszamy od poniedziałku do piątku od 9 do 19. Oraz w weekendy od godziny 12 do 18.</p>
       </div>
     </div>
-    <div class="cont contact">
+    <div class="cont contact" id="contact">
       <form>
         <header>Napisz do nas!</header>
         <input type="text" placeholder="Imię i Nazwisko">
