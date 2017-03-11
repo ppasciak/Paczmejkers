@@ -13,7 +13,7 @@ $bar-spacing: 12px;
   background: transparentize($prime-pink, 0.3);
 }
 body{
-  background: url(/img/svdonut.svg) repeat center top;
+  background: url(../img/svdonut.svg) repeat center top;
   background-size: 100px;
   background-color: $prime-blue;
   font-family: 'Roboto', sans-serif;
@@ -342,15 +342,15 @@ nav .burg{
       transform: translateY(160px)
     }
     &.first{
-      background: url(/img/pgrain.png) center top;
+      background: url(../img/pgrain.png) center top;
       background-size: 200px;
     }
     &.second{
-      background: url(/img/pchoco.jpg) center top;
+      background: url(../img/pchoco.jpg) center top;
       background-size: 200px;
     }
     &.third{
-      background: url(/img/pcherry.jpg) center top;
+      background: url(../img/pcherry.jpg) center top;
       background-size: 250px;
     }
   }
