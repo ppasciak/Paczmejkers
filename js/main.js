@@ -1,11 +1,16 @@
 $(document).ready(function(){
 
-/*----BURGER ICON------*/
-  $('.burg').on('click', function() {
-		$('.bar').toggleClass('animate');
-    $('nav ul').toggleClass('visible');
+/*-----BURGER ICON-----*/
+$('.burg').on('click', function() {
+	$('.bar').toggleClass('animate');
+  $('nav ul').toggleClass('visible');
 });
 
+/*-----CLOSE MENU AFTER CLICK-----*/
+$('nav a').on('click',function(){
+  $('.bar').toggleClass('animate');
+  $('nav ul').toggleClass('visible');
+});
 /*-----SHOW SCROLL BUTTON----*/
 $(window).scroll(function() {
   if ($(this).scrollTop() > 300) {
